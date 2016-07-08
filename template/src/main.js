@@ -1,7 +1,7 @@
-import Vue from 'vue'
-import App from './App.vue'
+const Vue = require('vue')
+const App = require('./App.vue')
 
-new Vue({
+new Vue({ // eslint-disable-line
   el: '#app',
   render () {
     return this.$createElement(App)

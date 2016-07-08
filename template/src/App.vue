@@ -6,7 +6,7 @@
 </template>
 
 <script>
-export default {
+module.exports = {
   data () {
     return {
       msg: 'Hello Vue 2.0!'
